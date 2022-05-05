@@ -12,7 +12,7 @@ We develop Flutter wallets. We have experience developing social recovery wallet
 
 We have implemented social recovery in that Flutter wallet. It operates on [Telos](https://telos.net). 
 
-There is an existing Flutter wallet, [Polkawallet](https://github.com/polkawallet-io/app), that we will use as a reference model for the Polkadot integration. 
+There is an existing Flutter wallet, [Polkawallet](https://github.com/polkawallet-io/app), that we will use as a reference model for the Polkadot integration. We will add the same general screens to a fork of Polkawallet and also our wallet, the SEEDS Light Wallet.
 
 ### Sign and Broadcast
 In addition to social recovery, we will also migrate our Sign and Broadcast feature. It scans the QR code provided by polkadot.{js}, signs it, and broadcasts it to the network. 
