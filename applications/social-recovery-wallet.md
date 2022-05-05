@@ -8,7 +8,7 @@
 Proposal for the RFP titled [Social Recovery Wallet](https://github.com/w3f/Grants-Program).
 
 ### Background
-We develop Flutter wallets. We have experience developing social recovery wallets in Flutter. We develop the [SEEDS Flutter wallet](https://github.com/JoinSEEDS/seeds_light_wallet).
+We develop Flutter wallets. We have experience developing social recovery wallets in Flutter. We develop the [SEEDS Flutter wallet](https://github.com/JoinSEEDS/seeds_light_wallet), found at the [Android store](https://play.google.com/store/apps/details?id=com.joinseeds.seedswallet) and the [iOS store](https://apps.apple.com/us/app/seeds-light-wallet/id1507143650). 
 
 We have implemented social recovery in that Flutter wallet. It operates on [Telos](https://telos.net). 
 
@@ -33,7 +33,8 @@ With social recovery fully implemented, wallet users can be more confident leavi
 
 ### Project Team members
 - Nik Heger - Flutter Developer
-- xx - Flutter Developer
+- Jason Jason - Flutter Developer
+- Massimo - Designer
 - Other team members as needed
 
 We have already been learning Substrate and we are partnering with the [Hashed Network](https://github.com/hashed-io). Many of our users are already planned to migrate over. 
