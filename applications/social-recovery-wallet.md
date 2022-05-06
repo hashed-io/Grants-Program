@@ -27,9 +27,9 @@ Our wallet will scan the same QR codes, but broadcast it to skip the step of hav
 With social recovery fully implemented, wallet users can be more confident leaving their mobile wallets online.
 
 ## Scoping
-- **_Features_** - All four steps of the [Social recovery on Substrate](https://www.parity.io/blog/social-recovery-on-substrate/) article will be implemented. 
+- **_Features_** - All steps of the [Social recovery on Substrate](https://www.parity.io/blog/social-recovery-on-substrate/) article will be implemented. 
 - **_Deployment_** - We will deploy the wallet to iOS and Android application stores. 
-- **_Maintenance_** - we will maintain the components on the mainline releases of Substrate for no less than 2 years
+- **_Maintenance_** - We will maintain the components on the mainline releases of Substrate for no less than 2 years
 
 ### Project Team members
 - Nik Heger - Flutter Developer
