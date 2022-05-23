@@ -1,11 +1,11 @@
 # W3F Grant Proposal
 - **Project Name:** Social Recovery Wallet
-- **Team Name:** <>
+- **Team Name:** Hypha DAO Wallet Team
 - **Payment Address:** <address> (BTC)
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 ## Overview
-Proposal for the RFP titled [Social Recovery Wallet](https://github.com/w3f/Grants-Program).
+Proposal for the RFP titled [Social Recovery Wallet](https://github.com/w3f/Grants-Program/blob/master/rfps/social-recovery-wallet.md).
 
 ### Background
 We develop Flutter wallets. We have experience developing social recovery wallets in Flutter. We develop the [SEEDS Flutter wallet](https://github.com/JoinSEEDS/seeds_light_wallet), found at the [Android store](https://play.google.com/store/apps/details?id=com.joinseeds.seedswallet) and the [iOS store](https://apps.apple.com/us/app/seeds-light-wallet/id1507143650). 
