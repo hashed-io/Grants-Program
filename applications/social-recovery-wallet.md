@@ -12,14 +12,39 @@ We develop Flutter wallets. We have experience developing social recovery wallet
 
 We have implemented social recovery in that Flutter wallet. It operates on [Telos](https://telos.net). 
 
-There is an existing Flutter wallet, [Polkawallet](https://github.com/polkawallet-io/app), that we will use as a reference model for the Polkadot integration. We will add the same general screens and functionality to a fork of Polkawallet and also our wallet, the SEEDS Light Wallet.
+There is an existing Flutter wallet, [Polkawallet](https://github.com/polkawallet-io/app), that we will use as a reference model for the Polkadot integration. 
 
-### Sign and Broadcast
+We will use the existing social recovery screens in the Seeds Light Wallet for polkadot recovery. 
+
+### Recovery Screens
+
+These screens include:
+- Select your guardians
+- Request to become a guardian [option to accept / reject]
+- Finalize guardians (set social recovery accounts)
+- Recover lost key (Request link to send to guardians)
+- Wait before recover - to prevent malicious actors taking over an account
+- Cancel recovery - prevent maliciuous actors
+
+### Recovery Link
+To make recovery easy for a user, we provide a link with a recovery transaction (vouch) to their guardians.
+
+To make recovery more difficult to attack, we require the user to send this link manually to their guardians, using methods other than the wallet. Meaning they have to use email, messaging apps, etc, to request recovery and can't just do it in-app. This makes social attacks more difficult, at minimal inconvenience for user. 
+
+The guardians can just click on the recovery link. 
+
+They are then presented with a screen where they can accept or reject the recovery, with a small disclaimer on the risks. 
+
+
+### Limitations
+Features will be limited to those offered by default by the social recovery pallet. Funds from an account can be recovered. Support for dApps compatible with the recovery pallet can be added later. 
+
+### Sign and Broadcast (Extended Goal)
 In addition to social recovery, we will also migrate our Sign and Broadcast feature. It scans the QR code provided by polkadot.{js}, signs it, and broadcasts it to the network. 
 
 Sign and Broadcast also establishes a trusted link between the browser and the device. The transaction results are reported on both the device and the browser. This feature uses the Flutter implementation of [Anchor Link](https://github.com/greymass/eosio-signing-request).
 
-### Parity Signer
+### Parity Signer (Extended Goal)
 Parity Signer scans QR codes that are produced by polkadot.{js}. Parity Signer is a fully airgapped wallet, so the payload is signed on the device and the signed QR code is scanned back into browser plugin to be broadcast. 
 
 Our wallet will scan the same QR codes, but broadcast it to skip the step of having to scan the QR back in. Scanning QR codes from mobile back into a webcam is an extra step. It is the most time consuming part because you have to align the phone over the webcam correctly, and it always takes another second or two to focus on the QR code. 
@@ -32,15 +57,18 @@ With social recovery fully implemented, wallet users can be more confident leavi
 - **_Maintenance_** - We will maintain the components on the mainline releases of Substrate for no less than 2 years
 
 ### Project Team members
-- Nik Heger - Flutter Developer
-- Jason Jason - Flutter Developer
-- Massimo - Designer
+- Nikolaus Heger - Flutter Developer
+- Jason Doh - Project Lead
+- Gerardo Guijarro  - Flutter Developer
+- Gabriel Guijarro - Flutter Developer
+- Raul Urtecho - Flutter Developer
+- Sky Blu - Technical QA
 - Other team members as needed
 
 We have already been learning Substrate and we are partnering with the [Hashed Network](https://github.com/hashed-io). Many of our users are already planned to migrate over. 
 
 ### Contact
-- **Contact Name:** Nik Heger
+- **Contact Name:** Nikolaus Heger
 - **Contact Email:** nheger@gmail.com
 - **Website:** https://hypha.earth
 
