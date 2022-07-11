@@ -31,10 +31,10 @@ We also originally intended to use the identity pallet `additional` mapping for 
 (all MIT licensed)
 | Component | Repo | Language |
 | -----: | ----------- | ------- |
-| Pallet | [Hashed Substrate](https://github.com/hashed-io/hashed-substrate/tree/main/pallets/nbv-storage) | Rust
-| Bitcoin Services | [BDK Services](https://github.com/hashed-io/bdk-services) | Rust |
-| Client | [Web App](https://github.com/hashed-io/native-bitcoin-vaults-UI) | Quasar/Vuejs |
-| QR Codec | [QR Encoding Package](https://github.com/hashed-io/nbv-ur-codec) | Javascript |
+| Marketplace UI | https://github.com/hashed-io/hashed-marketplaces-ui | Quasar/Vue |
+| Marketplace pallets | https://github.com/hashed-io/hashed-substrate/tree/main/pallets/gated-marketplace | Rust |
+| Confidential Documents Server | https://github.com/hashed-io/hashed-private-server | Javascript |
+| Confidential Documents API | https://github.com/hashed-io/hashed-private-client-api | Javascript |
 
 
 **Additional Information**
