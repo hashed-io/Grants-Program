@@ -7,8 +7,7 @@
 
 **Context** (optional)
 
-Regarding the user onboarding and KYC process, we anticipated to use the identity pallet to store crucial information, however, modifying the users' identity causes the current judgements to be outdated and invalid, leading the user to reapply for judgements if a verified account is desired. 
-At the end, we opted for storing the necessary information (which results from a developed privacy solution) within a custom pallet storage, along with some other items to describe pivotal data relations.
+Regarding the user onboarding and KYC process, we anticipated to use the identity pallet to store crucial information, however, modifying the user identity causes the current judgements to be reset, therefore we opted for storing the necessary information (which results from a developed privacy solution) within a custom pallet storage, along with some other items to describe pivotal data relations to keep it more persistant.
 
 **Deliverables**
 | Number | Deliverable | Specification |
@@ -26,10 +25,10 @@ At the end, we opted for storing the necessary information (which results from a
 (all MIT licensed)
 | Component | Repo | Language |
 | -----: | ----------- | ------- |
-| Marketplace UI | https://github.com/hashed-io/hashed-marketplaces-ui | Quasar/Vue |
-| Marketplace pallets | https://github.com/hashed-io/hashed-substrate/tree/main/pallets/gated-marketplace | Rust |
-| Confidential Documents Server | https://github.com/hashed-io/hashed-private-server | Javascript |
-| Confidential Documents API | https://github.com/hashed-io/hashed-private-client-api | Javascript |
+| Marketplace UI | https://github.com/Afloat-Inc/marketplaces-ui | Quasar/Vue |
+| Marketplace pallets | https://github.com/Afloat-Inc/pallets | Rust |
+| Confidential Documents Server | https://github.com/Afloat-Inc/private-server | Javascript |
+| Confidential Documents API | https://github.com/Afloat-Inc/private-client-api | Javascript |
 
 
 **Additional Information**
