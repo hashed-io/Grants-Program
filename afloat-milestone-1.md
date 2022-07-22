@@ -33,4 +33,4 @@ Regarding the user onboarding and KYC process, we anticipated to use the identit
 
 **Additional Information**
 
-We will create more extensive and polished end user documentation with the full product release (next milestone).
+We will create more extensive and polished end user documentation as we continue delivering the Milestones.
