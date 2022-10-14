@@ -24,7 +24,7 @@ We also originally intended to use the identity pallet `additional` mapping for 
 | 0d. | Docker | https://github.com/hashed-io/bdk-services/blob/master/Dockerfile | Dockerfile for `bdk_services` is used to deploy to Kubernetes |
 | 0e. | Video & Article | Spanish and [English](https://us02web.zoom.us/rec/share/E4aqWkYK7n_f9tbmf5BNTqGMPW7NECOmkcY18iK5ZttHfWNLZeZ0JlAN3S-zpFOB.0QgU4C_WrzCEUS9Z?startTime=1665605589000) | Video showing NBV fault |
 | 1. | PSBT Signing	 | https://github.com/hashed-io/bdk-services | Web services that are invoked via offchain-worker; will be replaced with `no_std` version of BDK in future release |  
-| 2. | Transaction Broadcast | https://github.com/hashed-io/hashed-substrate/blob/main/pallets/nbv-storage/src/lib.rs#L349 | User can set an `xpub` associated to their account within the NBV pallet |  
+| 2. | Transaction Broadcast | https://github.com/hashed-io/hashed-substrate/tree/main/pallets/bitcoin-vaults | User can set an `xpub` associated to their account within the NBV pallet |  
 | 4. | Hosted Instances	 | https://github.com/hashed-io/bdk-services/blob/master/README.md#generate-output-descriptors | Generate output descriptor (vault/wallet) based on the selected Vault Signers |  
 | 5. | EZ-Try	| https://github.com/hashed-io/bdk-services/blob/master/README.md#generate-new-address | NBV will be able to generate receiving addresses for a vault (can be generated on web or mobile) |  
 | 6. | Support & Maintenance | https://github.com/hashed-io/native-bitcoin-vaults-UI | NBV client will show a list of treasuries/vault, their labels, and the eligible signers |  
@@ -33,7 +33,7 @@ We also originally intended to use the identity pallet `additional` mapping for 
 (all MIT licensed)
 | Component | Repo | Language |
 | -----: | ----------- | ------- |
-| Pallet | [Hashed Substrate](https://github.com/hashed-io/hashed-substrate/tree/main/pallets/nbv-storage) | Rust
+| Pallet | [Hashed Substrate](https://github.com/hashed-io/hashed-substrate/tree/main/pallets/bitcoin-vaults) | Rust
 | Bitcoin Services | [BDK Services](https://github.com/hashed-io/bdk-services) | Rust |
 | Client | [Web App](https://github.com/hashed-io/native-bitcoin-vaults-UI) | Quasar/Vuejs |
 | QR Codec | [QR Encoding Package](https://github.com/hashed-io/nbv-ur-codec) | Javascript |
