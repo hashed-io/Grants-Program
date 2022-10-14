@@ -22,12 +22,12 @@ We also originally intended to use the identity pallet `additional` mapping for 
 | 0b. | Documentation | [Technical](https://github.com/hashed-io/hashed-substrate/tree/main/pallets/nbv-storage) Documentation and a step by step [Tutorial](https://github.com/hashed-io/hashed-network-portal-ui/blob/dev/docs/tutorials/native_bitcoin_vault_user_guide.md) on how to use NBV| The code has inline documentation and each repository has a detailed README with build, run, and test instructions. |
 | 0c. | Testing Guide | https://github.com/hashed-io/bdk-services/blob/master/src/hbdk/mod.rs#L457, https://github.com/hashed-io/hashed-substrate/blob/main/pallets/nbv-storage/src/tests.rs  | Tests are build directly into Rust projects, integration tests shown in video described below |
 | 0d. | Docker | https://github.com/hashed-io/bdk-services/blob/master/Dockerfile | Dockerfile for `bdk_services` is used to deploy to Kubernetes |
-| 0e. | Video & Article | Videos in Spanish and [English](https://us02web.zoom.us/rec/share/E4aqWkYK7n_f9tbmf5BNTqGMPW7NECOmkcY18iK5ZttHfWNLZeZ0JlAN3S-zpFOB.0QgU4C_WrzCEUS9Z?startTime=1665605589000) Articles in Spanish and English | Video showing NBV fault |
-| 1. | PSBT Signing	 | https://github.com/hashed-io/bdk-services | Users will be able to sign transactions using blue wallet (instead of Spectre Desktop) and save the output to the Substrate node. |  
-| 2. | Transaction Broadcast | https://github.com/hashed-io/hashed-substrate/tree/main/pallets/bitcoin-vaults | When the threshold of signatures has been reached, the status of the proposal changes and any co-signer can finalize and boradcast the transaction. (Max or Erick - what's the point about Bitcoin core node?)  |  
+| 0e. | Video & Article | Videos in Spanish and [English](https://us02web.zoom.us/rec/share/E4aqWkYK7n_f9tbmf5BNTqGMPW7NECOmkcY18iK5ZttHfWNLZeZ0JlAN3S-zpFOB.0QgU4C_WrzCEUS9Z?startTime=1665605589000) and the articles in Spanish and English | NA |
+| 1. | PSBT Signing	 | https://github.com/hashed-io/bdk-services | Users will be able to sign transactions using blue wallet, instead of Spectre Desktop. (Max or Erick - This was in the original proposal "Users will be able to sign transactions using our customized signer (Spectre Desktop) **and save the output to the Substrate node.**" Does it still make sense?) save the output to the Substrate node. |  
+| 2. | Transaction Broadcast | https://github.com/hashed-io/hashed-substrate/tree/main/pallets/bitcoin-vaults | When the threshold of signatures has been reached, the status of the proposal changes and any co-signer can finalize and boradcast the transaction. (Max or Erick - This was in the original proposal " the node will broadcast the transaction to the Bitcoin network (via integrated Bitcoin core node)" Does it still make sense?)  |  
 | 4. | Hosted Instances	 | https://github.com/hashed-io/bdk-services/blob/master/README.md#generate-output-descriptors | Testnet and Mainet addresses: |  
 | 5. | EZ-Try	| https://github.com/hashed-io/bdk-services/blob/master/README.md#generate-new-address | Max? |  
-| 6. | Support & Maintenance |  | We already have the  |  
+| 6. | Support & Maintenance |  | NA  |  
 
 **Repositories** 
 (all MIT licensed)
