@@ -41,4 +41,4 @@ We also originally intended to use the identity pallet `additional` mapping for 
 
 **Additional Information**
 
-We will create more extensive and polished end user documentation with the full product release (next milestone).
+
