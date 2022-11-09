@@ -21,7 +21,7 @@ A running instance of the code can be found [here](https://hashed-portal-dev.has
 | 1. | Originate Tax Credit | [JS library](https://github.com/hashed-io/afloat-client-api/blob/master/src/model/polkadot-pallets/afloatApi.js#L34) [Pallet](https://github.com/hashed-io/hashed-substrate/blob/develop/pallets/fruniques/src/lib.rs#L177) | This video provides a demonstration and explainer for how new tax credit NFTs are being originated: [Youtube Video](https://youtu.be/dpFk2d0UXYc) | 
 | 2. | Upload Confidential Documents | [JS library](https://github.com/hashed-io/hashed-confidential-docs-client-api/blob/015b59837eb8c0117fecb0c6323053d605a6f5fd/src/model/OwnedData.js#L57) | This feature allows for NFT originators to upload encrypted files attached to tax credits. The files will be accessible only by the user and the application administrator. This is also explained in the [video](https://youtu.be/dpFk2d0UXYc) | 
 | 3. | Tax Credit verification | NA | This functionality actually does not go into the pallet, but rather the client because it requires access to confidential data not accessible in the pallet. |
-| 4. | List for Sale | link | Ability for Tax Credit (NFT) owners to assign a price and list it for sale.| 
+| 4. | List for Sale | [Enlist NFT for sale](https://github.com/hashed-io/hashed-substrate/blob/00135e71f7bed81cf9f8dbd902b989bd19393f7e/pallets/gated-marketplace/src/lib.rs#L549) | Ability for Tax Credit (NFT) owners to assign a price and list it for sale.| 
 
 **Repositories** 
 (all MIT licensed)
