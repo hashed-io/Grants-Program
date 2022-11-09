@@ -1,4 +1,4 @@
-# Milestone Delivery :mailbox:
+[# Milestone Delivery :mailbox:
 
 **The [invoice form :pencil:](https://docs.google.com/forms/d/e/1FAIpQLSfmNYaoCgrxyhzgoKQ0ynQvnNRoTmgApz9NrMp-hd8mhIiO0A/viewform) has been filled out correctly for this milestone, and the delivery is according to the official [milestone delivery guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/milestone-deliverables-guidelines.md).**  
 
@@ -36,3 +36,4 @@ A running instance of the code can be found [here](https://portal-dev.hashed.sys
 
 **Additional Information**
 
+](https://docs.google.com/document/d/13EQwfnLdf35M6MYkbBzC1jROzLD9vuTAeJKNi1B2o6Y/edit?usp=sharing)
