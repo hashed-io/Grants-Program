@@ -36,4 +36,4 @@ A running instance of the code can be found [here](https://portal-dev.hashed.sys
 
 **Additional Information**
 
-](https://docs.google.com/document/d/13EQwfnLdf35M6MYkbBzC1jROzLD9vuTAeJKNi1B2o6Y/edit?usp=sharing)
+
