@@ -27,6 +27,7 @@ A running instance of the code can be found [here](https://hashed-portal-dev.has
 (all MIT licensed)
 | Component | Repo | Language |
 | -----: | ----------- | ------- |
+| Afloat Client API | https://github.com/hashed-io/afloat-client-api | Javascript |
 | Marketplace UI | https://github.com/hashed-io/hashed-network-portal-ui | Quasar/Vue |
 | Marketplace pallets | https://github.com/hashed-io/hashed-substrate/tree/develop/pallets/gated-marketplace | Rust |
 | Confidential Documents Server | https://github.com/hashed-io/hashed-private-server | Javascript |
