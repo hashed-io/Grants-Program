@@ -36,4 +36,4 @@ A running instance of the code can be found [here](https://hashed-portal-dev.has
 | Fruniques pallet | https://github.com/hashed-io/hashed-substrate/tree/develop/pallets/fruniques | Rust |
 | Confidential Documents Server | https://github.com/hashed-io/hashed-private-server | Javascript |
 | Confidential Documents API | https://github.com/hashed-io/hashed-confidential-docs-client-api | Javascript |
-
+| Faucet Server | https://github.com/hashed-io/faucet-server | Javascript |
