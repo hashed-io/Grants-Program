@@ -9,7 +9,7 @@
 
 **Context** (optional)
 
-This is the 3rd milestone of Afloat's grant. It covers ordering fractional tax credits, confirming and settling the order.
+This is the third milestone of Afloat's grant. It covers ordering fractional tax credits, confirming and settling the order.
 
 A running instance of the code can be found [here](https://hashed-portal-dev.hashed.systems/login)
 
