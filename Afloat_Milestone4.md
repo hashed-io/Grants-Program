@@ -27,6 +27,8 @@ A running instance of the code can be found [here](https://hashed-portal-dev.has
 |     3. | View materials and Redeem          | | |   
 |     4. | Asset Manager	                    | | |  
 |     5. | Launch Materials	                  | | |  
+
+
 **Repositories**
 (all MIT licensed)
 | Component | Repo | Language |
