@@ -10,13 +10,12 @@
 
 [Afloat](https://stayafloat.io/#/) is one of the first real-use cases of blockchain technology in the accounting industry. It enables the fractional buying and selling of tax credits that historically have been inefficient, opaque, and centralized. It has already processed tax credits ranging in orders from $2K -$70k USD.
 
-Afloat has migrated to Polkadot due to its technology, and is now looking to build the components needed to integrate with Fiat on/off ramps like Dwolla and Stripe.
+Afloat has migrated to Polkadot due to its technology, and is now looking to build the open source components needed to integrate with Fiat on/off ramps like Dwolla and Stripe. 
 
 ### Background
 
-A common tax credit is for land preservation. The inhabitants of a geographic area recognize that their shared quality of life may be positively impacted if more land was preserved rather than developed. If the owner of land property in that area agrees to preserve land, they may be eligible to receive a tax credit in an amount associated with the value of the land property. However, some owners of tax credits do not have enough tax liability to take full advantage of the reward. Because of this, a number of states allow credits to be transferred. State transferable tax credits are typically bought and sold at a discount. 
-
-Historically, the tax credit industry’s transfer process has been deeply inefficient. Due to a lack of trust between buyers and sellers, accountants and lawyers act as middlemen. This added financial and procedural cost creates an entry barrier for the majority of taxpayers into the tax credit market. What remains is a tight-knit group of wealthy buyers, sellers, and policymakers.
+To drive mass adoption, bridges to the current banking system are needed. Afloat is a great use case that bridges blockchain and government taxes and like many other project need integration with the current banking system.
+We propose a compsable implementation that mirrors
 
 ### Product
 
