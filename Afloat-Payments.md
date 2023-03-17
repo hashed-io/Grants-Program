@@ -62,15 +62,8 @@ Tax credits, as a socioeconomic tool, are very similar to concepts found in the 
 
 ### Migration
 
-Initially we will run on a standalone chain as a pallet. This provides the most latitude and flexibility. The initial phase is primarily focused on function, usability, and ensuring the core asset type design is secure and composable. It also includes existing user and asset migration. We will have a one-time process per user to teleport their account and assets. Most likely, we will not teleport any orders or redemptions currently in process. They would close out on the old platform, and users would create new ones after they migrate.
 
-We did not include any scope or fund request in the proposal related to the migration work. The scope of the w3f proposal is focused on building the open source components. These will be available for the community, and Afloat will be an implementation of them. Making the pallets and tooling as general purpose as possible should help with reusability, for us and other projects.
-
-To handle fractional tax credits in Substrate we are using "fruniques". That is our name for *FRactional UNIQUES*. It'll be compatible with the Uniques pallet and eventually with RMRK as well. It allows the user to spawn a new NFT from an existing NFT, repeatedly, while specifying an associated amount. The integrity of the total quantity must remain intact, along with metadata, but each of these NFTs can be priced, transferred, and redeemed individually.
-
-An earlier implementation of this used a fungible token to represent the parts of the tax credit, but we've found that fractional NFTs fit the mental model a bit better and more ergonomically in existing tools. A user is buying a "thing", see that thing in their wallet, where they may hold 7 of them. Holding various quantities of 7 different fungible tokens seemed to increase the complexity more than necessary. This is a design element we frequently brainstorm on though. In a future release, it may be useful to have fruniques support both use cases.
-
-This proposal covers the migration or creation of the following: 
+This proposal covers the development of the following components: 
 
 1. User onboarding (set and verify identity with gatekeeper parameters) and slides. 
 2. Sign and Login with email.
@@ -91,9 +84,8 @@ This proposal covers the migration or creation of the following:
 
 ## Ecosystem Fit
 
-Afloat serves tax payers that want to buy and/or sell tax credits. These users will benefit by Polkadot's improved security and by gaining compatibility for liquidity. Polkadot will benefit from the influx of non-technical users into the ecosystem. Tax Credits trade with a heavy discount to face value, and Polkadot participants will likely want to hold them during that lifespan even if they aren't the final redeemer. If a 5-year expiration credit is priced at $0.60-to-the-dollar by its impatient originator, it could be purchased via a more patient market maker to perhaps be sold at $0.90 in year 3 or 4, just as an example.
+Afloat serves tax payers that want to buy and/or sell tax credits. These users will benefit from an easy to use, compliant Fiat on/off ramp which is also a common, top of mind, challenge for digital native projects and developers in the ecosystem. 
 
-The secondary target audience are the community of developers that will benefit by leveraging the open source components and integrations with tax credit fruniques.
 
 ### Community
 
@@ -106,12 +98,6 @@ Afloat’s founder and current CEO [Louise Reed](https://www.linkedin.com/in/lou
 
 Working in a historically conservative industry, CPAs are starting to feel the push from blockchain/crypto clients to accept the new technology and are now being forced to help with risk mitigation (alongside lawyers).
 
-#### Sellers
-
-Typically, sellers of tax credits are large international businesses, which are usually slow with internal changes. However, familiarity with the tax credit market paves the way for an easier introduction to a new technology.
-
-#### Buyers
-Introducing programming/blockchain/crypto taxpayers to tax savings by way tax credits would bring new customers to a marketplace that has a strong history of centralization, opacity, and insularity.
 
 #### Bridging Communities
 Afloat would naturally bridge two opposing communities: accounting, the most trusted and conservative industries, and blockchain, one of the most innovative industries. By association with such a trusted industry, blockchain would receive credibility in the eyes of the general public while also modernizing accounting with new and better processes.
