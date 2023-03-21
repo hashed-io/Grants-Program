@@ -19,11 +19,6 @@ To drive mass adoption, bridges to the current banking system are needed. Afloat
 The product explainer from the previous proposal can be found [here](https://github.com/Afloat-Inc/Grants-Program/blob/master/applications/Afloat.md#Product)
 
 
-### Migration
-
-
-This proposal covers the development of the following components: 
-
 ### Workflow
 
 <p align="center">
@@ -39,10 +34,11 @@ Afloat serves tax payers that want to buy and/or sell tax credits. These users w
 
 ### Community
 
-As the perfect technology for record-keeping, blockchain makes a lot of sense for accountants. Afloat not only wants to bring its infrastructure to Polkadot but also bring Polkadot into the accounting community with the following:
+Developers from the Polkadot community will be able to leverage the Fiat integration for the products and send questions to the team.
 
 #### Continuing Education for CPAs
-Afloat’s founder and current CEO [Louise Reed](https://www.linkedin.com/in/louisewreed/) has given talks at a number of CPE conferences, where CPAs receive continuing education credits to maintain their licenses each year. Introducing her to Web 3 infrastructure would allow her to speak about it at CPA conferences, especially to other CPAs looking for classes covering new and interesting topics and ideas.
+
+Continuing the migration of Afloat’s, enables the founder and current CEO [Louise Reed](https://www.linkedin.com/in/louisewreed/) to continue her education efforts at a number of CPE conferences, where CPAs receive continuing education credits to maintain their licenses each year. Familiarizing her with Fiat integration with the Polkadot ecosystem will enable her to educate other CPAs about current, compliant and affordable solutions.
 
 #### Crypto Clients
 
@@ -94,11 +90,9 @@ Louise Reed is scheduled to speak at the following Certified Public Accountant S
 
 With a master's degree in physics from Duke University and a Master of Accounting from the University of North Carolina at Chapel Hill, Louise W. Reed has been a CPA for fifteen years and has grown a successful private practice that specializes in working with small businesses. In the spring of 2018, Louise conceptualized and founded Afloat to allow her clients to have the same tax opportunities traditionally found in only the largest of CPA firms. Under her leadership, Afloat built the current application (private ethereum clone) with an in-house team and successfully launched in 2021. [Awards](https://stayafloat.io/#/media)
 
-Afloat is partnering with Hashed Systems DAO LLC, a substrate development team with years of experience building blockchain applications. They have worked on substrate and Polkadot since spring 2021. Their developers completed Brian Chen's course and have experience running substrate chains and have significant experience working with the Uniques, Identity and Node-authorization pallets. Additional relevant experience below:
+Afloat is partnering with Hashed Systems DAO LLC, a substrate development team with years of experience building blockchain applications. They have worked on substrate and Polkadot since spring 2021. Additional relevant experience below:
 
-[Proxy](https://prxyco.com/) Unlike any other platform, PRXY was built by real estate and EB5 attorneys, blockchain specialists and licensed investment advisors with the fundamental mission of creating a better, more efficient and positive experience for all stakeholders.
-
-With the PRXY platform, fund administrators have the power to make EB-5 fraud 100% preventable boosting investor and regulator confidence.
+[Proxy](https://prxyco.com/) manages $1B plus in assets from foreigh investors looking to benefit from the EB-5 visa program. It was built by real estate and EB5 attorneys, blockchain specialists and licensed investment advisors. It's plattform secures the chain of evidence and approvals between developers and funding sources of the projects leveraging the Polkadot ecosystem. The Hashed team built the entire application, deployed it and currently supports it.
 
 [Hypha DAO](https://dho.hypha.earth/#/): Smart contracts and front end development that enables the creation of flexible roles, assignments and contributions with recurring payments. Design and implement a graph data layer to improve web application performance. Design and build a [Double Entry accounting](https://us02web.zoom.us/rec/share/eRqiBvq-dsV0L_hEjW5e8DWNYQlUn2bLhI8-86jkRVwdXiN3TiD5edym17ubCd9R.QhKQw_Byy0t5_8SW?startTime=1647371674000) (Passcode: .V$C#Br2) plattform that streams wallet activity, supports token price history, reporting and currency conversion.
 
@@ -108,7 +102,9 @@ With the PRXY platform, fund administrators have the power to make EB-5 fraud 10
 ### Relevant profile links
 - Louise Reed CPA website: https://louisereedcpa.com/
 - Louise Reed LinkedIn: https://www.linkedin.com/in/louisewreed/
-- Abel on Github: https://github.com/amatsonkali
+- Augusto on LinkedIn: https://www.linkedin.com/in/augustolara/
+- Sebastian on GitHub: https://github.com/sebastianmontero 
+*  Polkadot Blockchain Academy Graduate (Buenos Aires)
 - Jose Maria on Github: https://github.com/jmgayosso and Gitlab: https://gitlab.com/jmgayosso
 - Hashed website: https://hashed.io/
 - Erick on GitHub: https://github.com/tlacloc
