@@ -10,69 +10,19 @@
 
 [Afloat](https://stayafloat.io/#/) is one of the first real-use cases of blockchain technology in the accounting industry. It enables the fractional buying and selling of tax credits that historically have been inefficient, opaque, and centralized. It has already processed tax credits ranging in orders from $2K -$70k USD.
 
-Afloat has migrated to Polkadot due to its technology, and is now looking to build the open source components needed to integrate with Fiat on/off ramps like Dwolla and Stripe. 
+Afloat has migrated to Polkadot, and is now looking to build an open source component needed to integrate with Dwolla, a low fee fiat on/off ramp focused on Traditional Banking integration, that provides account verification and KYC. This proposal would enable any substrate project to easily integrate with Dwolla. It also includes components that can be used with any payment integrator.
 
 ### Background
 
-To drive mass adoption, bridges to the current banking system are needed. Afloat is a great use case that bridges blockchain and government taxes and like many other project need integration with the current banking system.
-We propose a compsable implementation that mirrors
+To drive mass adoption, bridges to the current banking system are needed. Afloat is a great use case that connects blockchain and government taxes. And like many other projects, need integration with the current banking system that facilitates compliance with US regulation.
 
-### Product
+The product explainer from the previous proposal can be found [here](https://github.com/Afloat-Inc/Grants-Program/blob/master/applications/Afloat.md#Product)
 
-[Afloat](https://stayafloat.io/#/) uses blockchain technology to add trust and liquidity to the market, allowing smaller fractional shares of tax credits to be transferred. So far, Afloat has facilitated the transfer of over $500,000 worth of tax credits between multiple buyers and sellers, 90% with whom Afloat anticipates an ongoing relationship. One of the platform’s sellers is an international company with over 10,000 employees, and the value of tax credits purchased per buyer has so far ranged between less than $2,000 and over $70,000.
-
-With the ability to tap into a market sector that knows nothing about blockchain or cryptocurrency, Afloat has the potential to lay the foundation to onboard traditional companies into the Polkadot ecosystem beyond using only Afloat. We have 120 active users, many of which are CPAs (public accountants) and represent a network of taxpayers (credit buyers and sellers). We purposefully haven't had any marketing campaigns and have been cautious with growth so far. As of April 15, 2022, we have successfully processed more than twice the total number of tax credits processed in 2021. We had a large batch of users enroll in December 2021 (end of tax year) and material increase (4x) year over year.
-
-Having started in the US, Afloat, Inc., a Wyoming company, is compliant with existing federal, state, and local regulations and takes care of the entire transfer process with the following functions:
-
-- Uploading proof of tax credit ownership
-<p align="center">
-  <img width="700" src="https://user-images.githubusercontent.com/7217054/159963378-b850c316-aa28-46ea-9a87-2e184de57a0d.png">
-</p>
-<br />
-
-- Linking a US bank account
-<p align="center">
-  <img width="700" src="https://user-images.githubusercontent.com/7217054/159963375-a06565dc-9f19-4aa9-8e31-a6223aa2cef8.png">
-</p>
-<br />
-
-- Fiat integration using Dwolla, a third party company
-- Placing buy and sell limit orders on blockchain
-<p align="center">
-  <img width="700" src="https://user-images.githubusercontent.com/7217054/159963749-d7e2ef89-fac0-4f4c-a823-9dd3a4e9d263.png">
-</p>
-<br />
-
-- Algorithmic matching overlapping full or partial orders in a ”pending” status while waiting for government approval
-<p align="center">
-  <img width="700" src="https://user-images.githubusercontent.com/7217054/159963752-dc5f9323-1d07-4bc5-b309-ab2147ff71b8.png">
-</p>
-<br />
-
-- Autopopulate tax forms with blockchain data (Afloat supports five of thirty-six US tax forms)
-- Completion of government paperwork and money transfer after government approval
-
-Tax credits, as a socioeconomic tool, are very similar to concepts found in the Substrate, Polkadot, Kusama (dotsama) ecosystem, where the tokenomics are decided by participants through a governance process designed to maximize the benefit for the network. For example, the network will:
-
-1. "mint or burn DOTs in order to reward the nodes that run the consensus protocol, to fund the treasury, to control the inflation rate, etc."
-2. "[ensure] DOTs also play a role in slashing protocols designed to disincentivize attacks or adversarial behaviors,"
-3. "let DOT holders express their opinion in governance decisions",  and
-4. "decide which projects are allocated a parachain slot".
 
 ### Migration
 
 
 This proposal covers the development of the following components: 
-
-1. User onboarding (set and verify identity with gatekeeper parameters) and slides. 
-2. Sign and Login with email.
-3. Originate and configure a tax credit and create sales orders for tax credits.
-4. Support for encrypted files attached to tax credits.
-5. Sell the entire or a fraction of the tax credit to interested buyers using fruniques pallets.
-6. Ability for buyers to place buy orders.
-7. Asset redemption workflow (tax credits require a 'redemption specialist').
-8. Launch materials, videos and speaking arrangements.
 
 ### Workflow
 
@@ -106,7 +56,7 @@ Afloat would naturally bridge two opposing communities: accounting, the most tru
 
 There is a huge educational and technological divide in the learning curve for accountants when it comes to blockchain, but Afloat adds an easy and natural way to learn.  Most people, including CPAs and businesses, tend to understand only what they can see and experience, and Afloat brings tangibility to an otherwise intangible industry.
 
-#### Speaking arrangements
+#### Speaking arrangements - Check with Louise
 
 Louise Reed is scheduled to speak at the following Certified Public Accountant Societies.
 
@@ -123,10 +73,10 @@ Louise Reed is scheduled to speak at the following Certified Public Accountant S
 ### Team members
 
 - Louise Reed - CEO and founder
-- Max Gravitt - Architect
-- Jose Maria Gayosso - UI Developer
-- Erick Casanova - Blockchain Engineer
-- Abel Yanez - Substrate Developer
+- Sebastian Montero - Architect
+- Augusto Lara - Project Manager
+- Erick Casanova - Backend Developer
+- Didier Mis May - Substrate Developer
 
 
 ### Contact
@@ -146,6 +96,9 @@ With a master's degree in physics from Duke University and a Master of Accountin
 
 Afloat is partnering with Hashed Systems DAO LLC, a substrate development team with years of experience building blockchain applications. They have worked on substrate and Polkadot since spring 2021. Their developers completed Brian Chen's course and have experience running substrate chains and have significant experience working with the Uniques, Identity and Node-authorization pallets. Additional relevant experience below:
 
+[Proxy](https://prxyco.com/) Unlike any other platform, PRXY was built by real estate and EB5 attorneys, blockchain specialists and licensed investment advisors with the fundamental mission of creating a better, more efficient and positive experience for all stakeholders.
+
+With the PRXY platform, fund administrators have the power to make EB-5 fraud 100% preventable boosting investor and regulator confidence.
 
 [Hypha DAO](https://dho.hypha.earth/#/): Smart contracts and front end development that enables the creation of flexible roles, assignments and contributions with recurring payments. Design and implement a graph data layer to improve web application performance. Design and build a [Double Entry accounting](https://us02web.zoom.us/rec/share/eRqiBvq-dsV0L_hEjW5e8DWNYQlUn2bLhI8-86jkRVwdXiN3TiD5edym17ubCd9R.QhKQw_Byy0t5_8SW?startTime=1647371674000) (Passcode: .V$C#Br2) plattform that streams wallet activity, supports token price history, reporting and currency conversion.
 
