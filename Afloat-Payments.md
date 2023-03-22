@@ -27,7 +27,7 @@ The product explainer from the previous proposal can be found [here](https://git
 </p>
 <br />
 
-This diagram details the components used in the Banking (Dwolla) - Substrate integration. 
+Components details used in the Banking (Dwolla) Substrate integration. 
 
 <p align="center">
   <img width="700" src="https://user-images.githubusercontent.com/7217054/227053993-fe3eff5b-e0ff-45df-a467-04c565d856df.png">
