@@ -37,9 +37,10 @@ Components details used in the Banking (Dwolla) Substrate integration.
 
 ### Requirements
 
-The full integration consists on two phases. And this proposal includes the first phase. We've broken up the proposal to use all the learnings from Phase 1 and Dwolla's integration to better estimate Phase 2.
+The full integration consists of two phases. This proposal covers the first phase. We've broken up the proposal to use the learnings from Phase 1 and n to better estimate Phase 2 that includes and Indexer.
 
 #### Phase 1 - Create the API and Entrypoints for:
+
 1. Creating a Dwolla account as a personal verified customer.
 
 * Develop an API endpoint to enable users to create a Dwolla account as a personal verified customer.
@@ -114,12 +115,11 @@ Are there any other projects similar to yours in the Substrate / Polkadot / Kusa
 If so, how is your project different?
 If not, are there similar projects in related ecosystems?
 
-Afloat serves tax payers that want to buy and/or sell tax credits. These users will benefit from an easy to use, compliant Fiat on/off ramp which is also a common, top of mind, challenge for digital native projects and developers in the ecosystem. 
+Developers in the substrate ecosystem looking to enable fiat on/off ramps with US banks, while ensuring KYC compliance will be able to use the open source code and documentation to integrate their products.
 
+Tax payers using Afloat plataform, now part of the Polkadot ecosystem, will benefit by an compliant onboarding banking process and faster buy/sell cycle.s
 
-### Community
-
-Developers from the Polkadot community will be able to leverage the Fiat integration for the products and send questions to the team.
+As far as we are aware there are no other traditional banking integrations that are KYC compliant and open source.
 
 #### Continuing Education for CPAs
 
@@ -177,7 +177,7 @@ With a master's degree in physics from Duke University and a Master of Accountin
 
 Afloat is partnering with Hashed Systems DAO LLC, a substrate development team with years of experience building blockchain applications. They have worked on substrate and Polkadot since spring 2021. Additional relevant experience below:
 
-[Proxy](https://prxyco.com/) manages $1B plus in assets from foreigh investors looking to benefit from the EB-5 visa program. It was built by real estate and EB5 attorneys, blockchain specialists and licensed investment advisors. It's plattform secures the chain of evidence and approvals between developers and funding sources of the projects leveraging the Polkadot ecosystem. The Hashed team built the entire application, deployed it and currently supports it.
+[Proxy](https://prxyco.com/): Pallets, front end and back end development that powers $1B plus in assets from foreigh investors looking to benefit from the EB-5 visa program. Nuilt by real estate and EB5 attorneys, and licensed investment advisors. It secures the chain of evidence and approvals between developers and funding sources of the projects leveraging Polkadot security. 
 
 [Hypha DAO](https://dho.hypha.earth/#/): Smart contracts and front end development that enables the creation of flexible roles, assignments and contributions with recurring payments. Design and implement a graph data layer to improve web application performance. Design and build a [Double Entry accounting](https://us02web.zoom.us/rec/share/eRqiBvq-dsV0L_hEjW5e8DWNYQlUn2bLhI8-86jkRVwdXiN3TiD5edym17ubCd9R.QhKQw_Byy0t5_8SW?startTime=1647371674000) (Passcode: .V$C#Br2) plattform that streams wallet activity, supports token price history, reporting and currency conversion.
 
@@ -187,11 +187,10 @@ Afloat is partnering with Hashed Systems DAO LLC, a substrate development team w
 ### Relevant profile links
 - Louise Reed CPA website: https://louisereedcpa.com/
 - Louise Reed LinkedIn: https://www.linkedin.com/in/louisewreed/
-- Sebastian on GitHub: https://github.com/sebastianmontero 
-*  Polkadot Blockchain Academy Graduate (Buenos Aires)
+- Sebastian on GitHub: https://github.com/sebastianmontero (Polkadot Blockchain Academy Graduate - Buenos Aires)
 - Jose Maria on Github: https://github.com/jmgayosso and Gitlab: https://gitlab.com/jmgayosso
-- Hashed website: https://hashed.io/
 - Erick on GitHub: https://github.com/tlacloc
+Hashed website: https://hashed.io/
 
 
 ## Development Roadmap :nut_and_bolt:
@@ -200,9 +199,9 @@ Afloat is partnering with Hashed Systems DAO LLC, a substrate development team w
 - **Full-Time Equivalent (FTE):**  1 FTE (across 4 contributors)
 - **Total Costs:** 37,300 USD
 
-#### Languages - Edited by Ercik
+#### Languages
 - All pallets will be developed in Rust. 
-- Dwolla API is going to be write in Javascript using NodeJS
+- Dwolla API will be writen in Javascript using NodeJS
 
 ### Milestone 1 — Create and verify accounts and move funds including web hooks and token creation.
 - **Estimated duration:** 13 weeks
@@ -218,14 +217,14 @@ Afloat is partnering with Hashed Systems DAO LLC, a substrate development team w
 | 0c. | Testing | Unit testing will be applied to ensure reliability. Documentation of tests and results will be provided |
 | 0d. | Video | We will provide a video demonstration that will illustrate all of the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** in English and Spanish that explains what was built and how it can benefit other projects |
-| 1. | Create account | Develop an API endpoint to enable users to create a Dwolla account as a personal verified customer. The endpoint should capture the user's personal details such as name, address, date of birth, social security number, and email address. The endpoint should validate the user's details against Dwolla's compliance requirements and create an account if the user passes. The endpoint should return a response indicating whether the account creation was successful or not. |
-| 2. | Add bank account | Develop an API endpoint to enable users to add a bank account to their Dwolla account. The endpoint should capture the user's bank account details such as routing number and account number. The endpoint should validate the user's bank account against Dwolla's compliance requirements and add it to the user's account if it passes. The endpoint should return a response indicating whether the bank account addition was successful or not. |
-| 3. | Verify account | Develop an API endpoint to enable users to verify their bank account using micro deposits. The endpoint should initiate the micro deposit process by sending two small deposits to the user's bank account. The endpoint should require the user to verify the deposit amounts before the bank account is considered verified. The endpoint should return a response indicating whether the bank account verification was successful or not. | 
-| 4. | Deposit funds | Develop an API endpoint to enable users to deposit funds into their Dwolla balance. The endpoint should capture the user's bank account details and the amount to be deposited. The endpoint should validate the user's bank account and initiate a transfer from the user's bank account to their Dwolla balance.The endpoint should return a response indicating whether the deposit was successful or not. |
-| 5. | Transfer funds | Develop an API endpoint to enable users to transfer funds from their Dwolla balance to another user's Dwolla balance. The endpoint should capture the recipient's Dwolla account ID and the amount to be transferred. The endpoint should validate the user's balance and initiate a transfer to the recipient's Dwolla balance. The endpoint should return a response indicating whether the transfer was successful or not. |
-| 6. | Withdrawing funds | Develop an API endpoint to enable users to withdraw funds from their Dwolla balance. The endpoint should capture the user's bank account details and the amount to be withdrawn. The endpoint should validate the user's balance and initiate a transfer from the Dwolla balance to the user's bank account. The endpoint should return a response indicating whether the withdrawal was successful or not. |
-| 7. | Webhook endpoints | Develop webhook endpoints to handle events generated by Dwolla. The endpoints should capture event data such as transaction status updates, bank account verification status, and balance updates. The endpoints should update the user's account based on the event data received. The endpoints should return a response indicating whether the update was successful or not. |
-| 8. | Minting tokens | Develop an API endpoint to enable users to mint tokens when they make a deposit.The endpoint should capture the user's deposit amount and issue a corresponding amount of tokens.The endpoint should interact with the Mapped Assets Pallet to mint the tokens and add them to the user's account.The endpoint should return a response indicating whether the minting process was successful or not. |
+| 1. | Create account | 1. Develop an API endpoint to enable users to create a Dwolla account as a personal verified customer. 2. The endpoint should capture the user's personal details such as name, address, date of birth, social security number, and email address. 3. The endpoint should validate the user's details against Dwolla's compliance requirements and create an account if the user passes. 4. The endpoint should return a response indicating whether the account creation was successful or not. |
+| 2. | Add bank account | 1. Develop an API endpoint to enable users to add a bank account to their Dwolla account. 2. The endpoint should capture the user's bank account details such as routing number and account number. 3. The endpoint should validate the user's bank account against Dwolla's compliance requirements and add it to the user's account if it passes. 4. The endpoint should return a response indicating whether the bank account addition was successful or not. |
+| 3. | Verify account | 1. Develop an API endpoint to enable users to verify their bank account using micro deposits. 2. The endpoint should initiate the micro deposit process by sending two small deposits to the user's bank account. 3. The endpoint should require the user to verify the deposit amounts before the bank account is considered verified. 4. The endpoint should return a response indicating whether the bank account verification was successful or not. | 
+| 4. | Deposit funds | 1. Develop an API endpoint to enable users to deposit funds into their Dwolla balance. 2. The endpoint should capture the user's bank account details and the amount to be deposited. 3. The endpoint should validate the user's bank account and initiate a transfer from the user's bank account to their Dwolla balance. 4. The endpoint should return a response indicating whether the deposit was successful or not. |
+| 5. | Transfer funds | 1. Develop an API endpoint to enable users to transfer funds from their Dwolla balance to another user's Dwolla balance. 2. The endpoint should capture the recipient's Dwolla account ID and the amount to be transferred. 3. The endpoint should validate the user's balance and initiate a transfer to the recipient's Dwolla balance. 4. The endpoint should return a response indicating whether the transfer was successful or not. |
+| 6. | Withdrawing funds | 1. Develop an API endpoint to enable users to withdraw funds from their Dwolla balance. 2. The endpoint should capture the user's bank account details and the amount to be withdrawn. 3. The endpoint should validate the user's balance and initiate a transfer from the Dwolla balance to the user's bank account. 4. The endpoint should return a response indicating whether the withdrawal was successful or not. |
+| 7. | Webhook endpoints | 1. Develop webhook endpoints to handle events generated by Dwolla. 2. The endpoints should capture event data such as transaction status updates, bank account verification status, and balance updates. 3. The endpoints should update the user's account based on the event data received. 4. The endpoints should return a response indicating whether the update was successful or not. |
+| 8. | Minting tokens | 1. Develop an API endpoint to enable users to mint tokens when they make a deposit. 2. The endpoint should capture the user's deposit amount and issue a corresponding amount of tokens. 3. The endpoint should interact with the Mapped Assets Pallet to mint the tokens and add them to the user's account. 4. The endpoint should return a response indicating whether the minting process was successful or not. |
 
 
 ## Future Plans
@@ -233,7 +232,6 @@ Afloat is partnering with Hashed Systems DAO LLC, a substrate development team w
 This proposal is one of two phases that will enable Afloat users to fund their accounts, transfer, buy and sell tax credits using their traditional bank accounts without worrying about compliance or KYC requirements.
 
 ### Next Phases
-This proposal covers Afloat migration of the current functionality. Below are future phases that expand it:
 
 #### Phase 2
 9. Burning tokens when a user makes a withdrawal.
