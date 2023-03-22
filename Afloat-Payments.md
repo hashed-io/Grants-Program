@@ -37,7 +37,7 @@ This diagram details the components used in the Banking (Dwolla) - Substrate int
 
 ### Details
 
-The full integration consists on two phases. And this proposal includes the first phase. We've broken up the proposal to use all the learnings from Phase 1 and avoid over estimating the effort required for Phase 2.
+The full integration consists on two phases. And this proposal includes the first phase. We've broken up the proposal to use all the learnings from Phase 1 and Dwolla's integration to better estimate Phase 2.
 
 #### Phase 1 - Create the API and Entrypoints for:
 1. Creating a Dwolla account as a personal verified customer.
@@ -51,7 +51,8 @@ The full integration consists on two phases. And this proposal includes the firs
 
 #### Phase 2 - Create a functional API and service for:
 9. Burning tokens when a user makes a withdrawal.
-10. Enable the mapped assets pallet indexing process to transfer funds between users when a transfer of tokens is made on the pallet.
+10. Set up Indexer service
+11. Enable the mapped assets pallet indexing process to transfer funds between users when a transfer of tokens is made on the pallet.
 
 ## Ecosystem Fit
 
@@ -136,7 +137,6 @@ Afloat is partnering with Hashed Systems DAO LLC, a substrate development team w
 ### Relevant profile links
 - Louise Reed CPA website: https://louisereedcpa.com/
 - Louise Reed LinkedIn: https://www.linkedin.com/in/louisewreed/
-- Augusto on LinkedIn: https://www.linkedin.com/in/augustolara/
 - Sebastian on GitHub: https://github.com/sebastianmontero 
 *  Polkadot Blockchain Academy Graduate (Buenos Aires)
 - Jose Maria on Github: https://github.com/jmgayosso and Gitlab: https://gitlab.com/jmgayosso
@@ -147,7 +147,7 @@ Afloat is partnering with Hashed Systems DAO LLC, a substrate development team w
 ## Development Roadmap :nut_and_bolt:
 ### Overview
 - **Total Estimated Duration:** 13 weeks
-- **Full-Time Equivalent (FTE):**  2 FTE (across 5 contributors)
+- **Full-Time Equivalent (FTE):**  1 FTE (across 4 contributors)
 - **Total Costs:** 43,300 USD
 
 #### Languages - Edited by Ercik
