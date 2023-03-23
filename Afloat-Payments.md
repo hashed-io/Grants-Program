@@ -234,7 +234,7 @@ This proposal is one of two phases that will enable Afloat users to fund their a
 ### Next Phases
 
 #### Phase 2
-9. Burning tokens when a user makes a withdrawal.
+* Burning tokens when a user makes a withdrawal.
 
 Requirements:
 Develop an API endpoint to enable users to burn tokens when they make a withdrawal.
@@ -242,8 +242,8 @@ The endpoint should capture the user's withdrawal amount and burn a correspondin
 The endpoint should interact with the Mapped Assets Pallet to burn the tokens from the user's account.
 The endpoint should return a response indicating whether the burning process was successful or not.
 
-10. Set up Indexer service
-11. Enable the mapped assets pallet indexing process to transfer funds between users when a transfer of tokens is made on the pallet.
+* Set up Indexer service
+* Enable the mapped assets pallet indexing process to transfer funds between users when a transfer of tokens is made on the pallet.
 
 Requirements:
 Develop a service to enable the mapped assets pallet indexing process to transfer funds between users when a transfer of tokens is made on the pallet.
