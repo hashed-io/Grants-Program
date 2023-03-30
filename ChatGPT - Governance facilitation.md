@@ -1,12 +1,13 @@
-# Open-Source ChatGPT Integration for DAO Governance and Participation
+# ChatGPT integration with Polkador proposals to improve governance
+- **Team Name:** Hashed Systems
+- **Payment Address:** bc1q0aghk8qufzwpmrp5nfyu9r7dh3yynmphk7rhjj
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
-## Project Overview
+## Project Overview :page_facing_up:
 
-### Project Name
-ChatGPT-DAO
+If you've participated in decentralized governance, you know keeping the community engaged and informed can be challenging. The amount of information and context that goes into each proposal is difficult to digest, long conversations occur in many places, and people have busy lives. The governance rules can themselves be complex and easy to forget. Having a personal assistant that summarizes, provides context, and reminds us about the governance details would be great.
 
-### Introduction
-The ChatGPT-DAO project aims to improve governance, participation, and engagement in decentralized organizations by integrating OpenAI's ChatGPT into DAO communication channels, such as Discord. By providing a range of services like summarizing conversations, offering contextual information, onboarding new members, and reminding participants to vote, this project will enhance the efficiency and inclusiveness of DAOs.
+This ChatGPT integration aims to improve governance, participation, and engagement in Polkadot and serve as a POC to improve decentralized governance participation by integrating OpenAI's ChatGPT to summarize proposals and contextual information like proposals from the same account, voting status, and information on how to participate. In addition, future applications could be summarized Discord conversations, sentiment analysis, reminders, and social media posts that keep DOT holders engaged and informed about governance.
 
 ### Project Details
 ChatGPT-DAO will be an open-source integration that leverages the ChatGPT API to provide the following features:
@@ -43,17 +44,18 @@ ChatGPT-DAO will fill a gap in the Web3 ecosystem by improving the way DAOs comm
 ## Team
 
 ### Team members
-- Name: John Doe
-- Role: Project Lead
-- Experience: Software Developer, Chatbot and NLP Expert
 
-- Name: Jane Smith
-- Role: Developer
-- Experience: Web3 Developer, Python and Discord API Expert
+- Sebastian Montero - Architect
+- Jose Maria Gayosso - Front End Developer
+- Alejandro
+- Erick Casanova - Blockchain Engineer
+- Didier Mis May - Substrate Developer
 
 ### Contact
-- Email: chatgpt-dao@example.com
-- GitHub: https://github.com/chatgpt-dao
+
+- **Contact Name:** Augusto Lara
+- **Contact Email:** augusto@hashed.io
+- **Website:** hashed.io
 
 ## Development Roadmap
 
