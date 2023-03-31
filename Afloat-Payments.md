@@ -137,16 +137,6 @@ Afloat would naturally bridge two opposing communities: accounting, the most tru
 
 There is a substantial educational and technological divide in the learning curve for accountants regarding blockchain, but Afloat adds an easy and natural way to learn. Most people, including CPAs and businesses, tend to understand only what they can see and experience, and Afloat brings tangibility to an otherwise intangible industry.
 
-#### Speaking arrangements - Check with Louise
-
-Louise Reed is scheduled to speak at the following Certified Public Accountant Societies.
-
-| Date of Talk | CPA Society | Location |
-| -----------: | ----------- | -------- |
-| 5/26/2022    | NC          | Greensboro |
-| 8/24/2022    | GA          | Atlanta |
-| 9/26/2022    | VA (+ VA Tech) | Roanoke |
-| 11/17/2022   | VA (+ VA Tech) | Virginia Beach |
 
 
 ## Team :busts_in_silhouette:
