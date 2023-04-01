@@ -1,5 +1,5 @@
 # ChatGPT integration with Polkador proposals to improve governance
-- **Team Name:** Hashed Systems
+- **Team Name:** Hashed Systems 
 - **Payment Address:** bc1q0aghk8qufzwpmrp5nfyu9r7dh3yynmphk7rhjj
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
@@ -10,33 +10,38 @@ If you've participated in decentralized governance, you know keeping the communi
 This ChatGPT integration aims to improve governance, participation, and engagement in Polkadot and serve as a POC to improve decentralized governance participation by integrating OpenAI's ChatGPT to summarize proposals and contextual information like proposals from the same account, voting status, and information on how to participate. In addition, future applications could be summarized Discord conversations, sentiment analysis, reminders, and social media posts that keep DOT holders engaged and informed about governance.
 
 ### Project Details
-ChatGPT-DAO will be an open-source integration that leverages the ChatGPT API to provide the following features:
+ChatGPT will be an open-source integration that leverages the ChatGPT API to provide the following features:
 
-#### 1. Summarizing and Simplifying Conversations
-- Monitor and summarize Discord conversations
+#### 1. Summarizing and Simplifying Proposals
+- Monitor and summarize proposals
 - Make complex information easily understandable
 - Support multilingual translations for global collaboration
 
-#### 2. Providing Additional Context
-- Offer contextual information on proposals and decisions
-- Answer questions and clarify uncertainties
-- Enhance the decision-making process
+#### 2. Summarizing and Simplifying Conversations
+- Monitor and summarize element or polkassembly conversations
+- Help users catch up with what's going on rapidly
+- Support multilingual translations for global collaboration
 
-#### 3. Onboarding and Support for Newcomers
-- Assist with the onboarding process for new members
+#### 3. Providing Additional Context
+- Offer contextual information on proposals like past proposals by proponent, voting status, group them by topic and identify trends
+- Top voter active proposals, controvertial proposals and time left to vote
+
+#### 4. Onboarding and Support for Newcomers
+- Assist with the onboarding process for new members, explaining Gov 2 and how they can participate
 - Answer frequently asked questions
 - Provide basic support and resources
 
-#### 4. Voting Reminders
+#### 5. Voting Reminders
 - Remind participants to vote on proposals and decisions
-- Send messages through Discord and create social media posts
-- Encourage active participation in the DAO's governance process
+- Send messages through messaging app or create summarized social media posts that keep the community updated
+- Encourage active participation
 
 ### Technology Stack
 - Python
 - ChatGPT API
-- 
-<mark>What else goes here?</mark>
+- Messaging services API
+- https://support.subscan.io/#governance-api
+
 
 ### Ecosystem Fit
 Gavin Wood and the Polkadot community spend a lot of time improving, designing and building decentralized governance. It's one of the key value-propositions from the Polkadot ecocystem. This proposals aims to contirnute in that direction by facilitating informed participation.
@@ -68,7 +73,7 @@ DAOs and other digital native organizations with decentralized governance have t
 
 Sebastian Montero Bending is a computer systems engineer with more than 14 years of solid work experience building major software projects. The last 3.5 years he has been focused on developing blockchain related applications, using eosio, substrate and btc, leading highly skilled technical teams, to architect and build fully fledged solutions. He was invited by the University of Tokio in 2019 to spend a year researching Machine Learning prediction models for which he succesfully published a paper. He also completed Polkadot blockchain Academy this year in Buenos Aires. 
 
-Augusto Lara lived in the US for 12 years and worked in different Analytics related roles designing and implementing solutions for Enterprise customers. He now lives in Cancun with his wife and three kids, and for the last four years, he has focused on the day-to-day operation of the development team and product design.
+Augusto Lara worked for 12 years Analytics and business intelligence roles designing and implementing solutions for Enterprise customers including predition models for some of the largest Suppliers of sportswer and apperal. He now lives in Cancun with his wife and three kids, and for the last four years, he has focused on the day-to-day operation of the development team and product design.
 
 Hashed Systems DAO LLC, is a substrate development team with years of experience building blockchain applications. They have worked on substrate and Polkadot since spring 2021. Their developers completed Brian Chen's course and have experience running substrate chains and have significant experience working with the Uniques, Identity and Node-authorization pallets. Additional relevant experience below:
 
@@ -82,40 +87,46 @@ Hashed Systems DAO LLC, is a substrate development team with years of experience
 ### Relevant profile links
 
 - Augusto Lara LinkedIn: https://www.linkedin.com/in/augustolara/
-- Sebastian Montero: 
+- Sebastian Montero: https://github.com/sebastianmontero
 - Jose Maria on Github: https://github.com/jmgayosso and Gitlab: https://gitlab.com/jmgayosso
-- Didier on GitHub
+- Didier on GitHub: https://github.com/didiermis
 - Erick on GitHub: https://github.com/tlacloc
 - Hashed website: https://hashed.io/
 
 
 ## Development Roadmap
 
-### Milestone 1: ChatGPT Integration and Summarization Feature
-- Duration: 4 weeks
-- Cost: $10,000
-- Deliverables:
-  - ChatGPT integration with Discord
-  - Development of conversation summarization feature
-  - Documentation and testing
 
-### Milestone 2: Context, Onboarding, and Support Features
-- Duration: 6 weeks
-- Cost: $15,000
-- Deliverables:
-  - Development of context-providing feature
-  - Development of onboarding and support feature for newcomers
-  - Documentation and testing
+### 1. Summarizing and Simplifying Proposals
+- New proposal tracker.
+- Simple interface to present proposal summaries.
+- Proposal categorization system for easier navigation.
+- Multilingual translation feature 
 
-### Milestone 3: Voting Reminder Feature and Finalization
-- Duration: 2 weeks
-- Cost: $5,000
-- Deliverables:
-  - Development of voting reminder feature
-  - Integration with social media platforms
-  - Final testing, documentation, and deployment
+### 2. Summarizing and Simplifying Conversations
+- Tool to monitor and extract key information from Element or Polkassembly conversations.
+- ChatGPT workflows to provide concise and accessible summaries of relevant discussions.
+- Integration of conversation summaries with proposal summaries for comprehensive context.
+
+### 3. Providing Additional Context
+- Analysis system to gather data on past proposals, voting status, and trends.
+- Data display of active proposals, controversial proposals, and voting deadlines.
+- Train group proposals by topic and identify emerging trends.
+
+### 4. Voting Reminders
+- Summarized social media posts to keep the community updated on voting matters.
+- Create an opt-in system for personalized voting reminders and updates through messaging channels.
+- Monitor and analyze voting participation to identify areas for improvement and enhance engagement strategies.
+
+### 5. Onboarding and Support for Newcomers
+- Comprehensive onboarding guide trained on Gov 2 documentation
+- Interactive FAQ section to address common questions.
+- Access to resources, tutorials, and support materials for newcomers.
+- Host webinars, workshops, or community events to engage and educate new members on the new platform
+
+
 
 ## Future Plans
 - Expand the feature set based on community feedback
-- Explore integration with other DAO communication platforms
-- Support additional languages for broader reach
+- Explore integration with other communication platforms
+
