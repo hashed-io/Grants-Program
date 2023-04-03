@@ -5,7 +5,7 @@
 
 ## Project Overview :page_facing_up:
 
-If you've participated in decentralized governance, you know keeping the community engaged and informed can be challenging. The amount of information and context that goes into each proposal is difficult to digest, long conversations occur in many places, and people have busy lives. The governance rules can themselves be complex and easy to forget. Having a personal assistant that summarizes, provides context, and reminds us about the governance details would be great.
+If you've participated in decentralized governance, you know keeping the community engaged and informed can be challenging. The amount of information and context that goes into each proposal is difficult to digest, long conversations occur in many places, and people have busy lives. The governance rules can themselves be complex and easy to forget. 
 
 This ChatGPT integration aims to improve governance, participation, and engagement in Polkadot and serve as a POC to improve decentralized governance participation by integrating OpenAI's ChatGPT to summarize proposals and contextual information like proposals from the same account, voting status, and information on how to participate. In addition, future applications could be summarized Element conversations, sentiment analysis, reminders, and social media posts that keep DOT holders engaged and informed about governance.
 
