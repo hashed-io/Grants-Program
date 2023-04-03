@@ -54,8 +54,8 @@ DAOs and other digital native organizations with decentralized governance have t
 - Sebastian Montero - Architect
 - Jose Maria Gayosso - Front End Developer
 - Alejandro Garcia - Front End Developer
-- Erick Casanova - Blockchain Engineer
-- Didier Mis May - Substrate Developer
+- Erick Casanova - Backend Engineer
+- Didier Mis May - Backend Developer
 
 ### Contact
 
